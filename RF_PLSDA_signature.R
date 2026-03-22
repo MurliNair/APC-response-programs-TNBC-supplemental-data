@@ -45,7 +45,6 @@ set.seed(1234)
 ############################################################
 ## 1. LOAD / PREPARE DATA                                ##
 ############################################################
-# Example: using mergedData that you already have in your session
 # First column = SYMBOL, rest = samples
 # expr_df <- mergedData %>%
 #   dplyr::select(SYMBOL, MDAMB157_CON1:APCshRNA2_PTX3)
