@@ -1,0 +1,1167 @@
+nohup: ignoring input
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘matrixStats’
+
+The following object is masked from ‘package:dplyr’:
+
+    count
+
+randomForest 4.7-1.2
+Type rfNews() to see new features/changes/bug fixes.
+
+Attaching package: ‘randomForest’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: lattice
+Loading required package: ggplot2
+
+Attaching package: ‘ggplot2’
+
+The following object is masked from ‘package:randomForest’:
+
+    margin
+
+
+Loaded mixOmics 6.34.0
+Thank you for using mixOmics!
+Tutorials: http://mixomics.org
+Bookdown vignette: https://mixomicsteam.github.io/Bookdown
+Questions, issues: Follow the prompts at http://mixomics.org/contact-us
+Cite us:  citation('mixOmics')
+
+Loading required package: grid
+Loading required package: futile.logger
+Type 'citation("pROC")' for a citation.
+
+Attaching package: ‘pROC’
+
+The following objects are masked from ‘package:stats’:
+
+    cov, smooth, var
+
+     SYMBOL MDAMB157_CON1 MDAMB157_CON2 MDAMB157_CON3 MDAMB157_CIS1
+1      MADD    556.165955    583.023683    575.030491   992.6064709
+2     MAST2   1101.795614   1051.841475   1129.448022  2192.2708332
+3   THAP3P1      6.020741      7.300833      1.421583     0.9081486
+4       GAN     87.300745     96.475296     66.103629    35.4177972
+5      LDB2     58.702225     68.314940     68.946796    24.5200135
+6 LINC01356      7.525926     11.472738     11.372667    18.1629729
+  MDAMB157_CIS2 MDAMB157_CIS3 MDAMB157_PTX1 MDAMB157_PTX2 MDAMB157_PTX3
+1    949.109916    914.588173    607.560003     587.70192    752.930135
+2   2148.909707   2198.410422   1957.289113    1934.47683   2430.034444
+3      3.901788      3.862281      2.425389       4.03226      5.436319
+4     36.091538     28.580880     25.466587      18.14517     13.590797
+5     30.238857     22.401231     18.190419      17.13711     19.027115
+6     22.435281     15.449125     15.765030      21.16937     10.872637
+  APCshRNA1_CON1 APCshRNA1_CON2 APCshRNA1_CON3 APCshRNA1_CIS1 APCshRNA1_CIS2
+1     756.485290    718.2999111     628.632391     766.422689     902.383492
+2    1543.203118   1687.7476431    1317.497180    1582.889077    2144.896145
+3       3.359171      0.8571598       3.461632       3.427651       1.388282
+4      73.229926     52.2867477      99.695005      74.722785      40.260187
+5      53.746735     46.2866291      65.771010      50.729230      26.377364
+6      12.093015     10.2859176       9.000243       6.855301       8.329694
+  APCshRNA1_CIS3 APCshRNA1_PTX1 APCshRNA1_PTX2 APCshRNA1_PTX3 APCshRNA2_CON1
+1     912.727317     637.734266     663.246681     627.468506      670.19799
+2    2080.321212    1888.045626    2185.809318    2153.078207     1154.38645
+3       2.178347       2.515717       2.420608       4.921322       10.14597
+4      31.586029      42.767189      33.888517      38.140243       91.87744
+5      31.586029      32.704321      22.995779      22.145947       71.02182
+6      11.980908      10.062868       7.261825      17.224626       13.52797
+  APCshRNA2_CON2 APCshRNA2_CON3 APCshRNA2_CIS1 APCshRNA2_CIS2 APCshRNA2_CIS3
+1     704.447150     743.229777     1104.96500    1083.795380     1144.97827
+2    1327.228890    1299.554513     3325.86240    2359.389699     3312.88943
+3       7.303411       4.390387        0.00000       2.627383        3.21172
+4      75.689892      87.807737       38.38588      18.391679       27.29962
+5      65.730695      49.548652       13.70924      21.019062       30.51134
+6       6.639464      13.798359       27.41849       5.254765       19.27032
+  APCshRNA2_PTX1 APCshRNA2_PTX2 APCshRNA2_PTX3
+1    1009.919768     835.174481     775.817675
+2    2747.781705    2606.146874    2088.946036
+3       4.999603       1.257793       2.679854
+4      31.997458      35.218201      40.197807
+5      35.997140      28.929237      26.798538
+6      19.998411      11.320136      17.419050
+Genes before filtering: 16215 
+Genes after filtering : 12161 
+Top RF genes: 100 
+Top PLS-DA genes: 100 
+Signature genes (RF ∩ PLS-DA): 43 
+pdf 
+  3 
+pdf 
+  2 
+Warning message:
+In grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  :
+  conversion failure on 'Signature genes (RF ∩ PLS-DA), n = 43' in 'mbcsToSbcs': for ∩ (U+2229)
+Pipeline complete.
+
+Validation sample count: 27 
+Class distribution:
+y_cv
+CON CIS PTX 
+  9   9   9 
+CV repeat 1 of 20 
+CV repeat 2 of 20 
+CV repeat 3 of 20 
+CV repeat 4 of 20 
+CV repeat 5 of 20 
+CV repeat 6 of 20 
+CV repeat 7 of 20 
+CV repeat 8 of 20 
+CV repeat 9 of 20 
+CV repeat 10 of 20 
+CV repeat 11 of 20 
+CV repeat 12 of 20 
+CV repeat 13 of 20 
+CV repeat 14 of 20 
+CV repeat 15 of 20 
+CV repeat 16 of 20 
+CV repeat 17 of 20 
+CV repeat 18 of 20 
+CV repeat 19 of 20 
+CV repeat 20 of 20 
+
+Repeated CV summary:
+              metric      mean    median  lower_95 upper_95
+1           accuracy 0.9296296 0.9444444 0.8518519        1
+2  balanced_accuracy 0.9296296 0.9444444 0.8518519        1
+3          macro_auc 0.9906379 0.9917695 0.9609053        1
+4    sensitivity_CON 0.9500000 1.0000000 0.8888889        1
+5    sensitivity_CIS 0.8388889 0.8888889 0.5555556        1
+6    sensitivity_PTX 1.0000000 1.0000000 1.0000000        1
+7    specificity_CON 0.9527778 0.9444444 0.9444444        1
+8    specificity_CIS 0.9750000 1.0000000 0.9444444        1
+9    specificity_PTX 0.9666667 1.0000000 0.8333333        1
+10           auc_CON 0.9935185 0.9938272 0.9876543        1
+11           auc_CIS 0.9811728 0.9845679 0.9259259        1
+12           auc_PTX 0.9972222 1.0000000 0.9629630        1
+Permutation 1 of 1000 
+Permutation 2 of 1000 
+Permutation 3 of 1000 
+Permutation 4 of 1000 
+Permutation 5 of 1000 
+Permutation 6 of 1000 
+Permutation 7 of 1000 
+Permutation 8 of 1000 
+Permutation 9 of 1000 
+Permutation 10 of 1000 
+Permutation 11 of 1000 
+Permutation 12 of 1000 
+Permutation 13 of 1000 
+Permutation 14 of 1000 
+Permutation 15 of 1000 
+Permutation 16 of 1000 
+Permutation 17 of 1000 
+Permutation 18 of 1000 
+Permutation 19 of 1000 
+Permutation 20 of 1000 
+Permutation 21 of 1000 
+Permutation 22 of 1000 
+Permutation 23 of 1000 
+Permutation 24 of 1000 
+Permutation 25 of 1000 
+Permutation 26 of 1000 
+Permutation 27 of 1000 
+Permutation 28 of 1000 
+Permutation 29 of 1000 
+Permutation 30 of 1000 
+Permutation 31 of 1000 
+Permutation 32 of 1000 
+Permutation 33 of 1000 
+Permutation 34 of 1000 
+Permutation 35 of 1000 
+Permutation 36 of 1000 
+Permutation 37 of 1000 
+Permutation 38 of 1000 
+Permutation 39 of 1000 
+Permutation 40 of 1000 
+Permutation 41 of 1000 
+Permutation 42 of 1000 
+Permutation 43 of 1000 
+Permutation 44 of 1000 
+Permutation 45 of 1000 
+Permutation 46 of 1000 
+Permutation 47 of 1000 
+Permutation 48 of 1000 
+Permutation 49 of 1000 
+Permutation 50 of 1000 
+Permutation 51 of 1000 
+Permutation 52 of 1000 
+Permutation 53 of 1000 
+Permutation 54 of 1000 
+Permutation 55 of 1000 
+Permutation 56 of 1000 
+Permutation 57 of 1000 
+Permutation 58 of 1000 
+Permutation 59 of 1000 
+Permutation 60 of 1000 
+Permutation 61 of 1000 
+Permutation 62 of 1000 
+Permutation 63 of 1000 
+Permutation 64 of 1000 
+Permutation 65 of 1000 
+Permutation 66 of 1000 
+Permutation 67 of 1000 
+Permutation 68 of 1000 
+Permutation 69 of 1000 
+Permutation 70 of 1000 
+Permutation 71 of 1000 
+Permutation 72 of 1000 
+Permutation 73 of 1000 
+Permutation 74 of 1000 
+Permutation 75 of 1000 
+Permutation 76 of 1000 
+Permutation 77 of 1000 
+Permutation 78 of 1000 
+Permutation 79 of 1000 
+Permutation 80 of 1000 
+Permutation 81 of 1000 
+Permutation 82 of 1000 
+Permutation 83 of 1000 
+Permutation 84 of 1000 
+Permutation 85 of 1000 
+Permutation 86 of 1000 
+Permutation 87 of 1000 
+Permutation 88 of 1000 
+Permutation 89 of 1000 
+Permutation 90 of 1000 
+Permutation 91 of 1000 
+Permutation 92 of 1000 
+Permutation 93 of 1000 
+Permutation 94 of 1000 
+Permutation 95 of 1000 
+Permutation 96 of 1000 
+Permutation 97 of 1000 
+Permutation 98 of 1000 
+Permutation 99 of 1000 
+Permutation 100 of 1000 
+Permutation 101 of 1000 
+Permutation 102 of 1000 
+Permutation 103 of 1000 
+Permutation 104 of 1000 
+Permutation 105 of 1000 
+Permutation 106 of 1000 
+Permutation 107 of 1000 
+Permutation 108 of 1000 
+Permutation 109 of 1000 
+Permutation 110 of 1000 
+Permutation 111 of 1000 
+Permutation 112 of 1000 
+Permutation 113 of 1000 
+Permutation 114 of 1000 
+Permutation 115 of 1000 
+Permutation 116 of 1000 
+Permutation 117 of 1000 
+Permutation 118 of 1000 
+Permutation 119 of 1000 
+Permutation 120 of 1000 
+Permutation 121 of 1000 
+Permutation 122 of 1000 
+Permutation 123 of 1000 
+Permutation 124 of 1000 
+Permutation 125 of 1000 
+Permutation 126 of 1000 
+Permutation 127 of 1000 
+Permutation 128 of 1000 
+Permutation 129 of 1000 
+Permutation 130 of 1000 
+Permutation 131 of 1000 
+Permutation 132 of 1000 
+Permutation 133 of 1000 
+Permutation 134 of 1000 
+Permutation 135 of 1000 
+Permutation 136 of 1000 
+Permutation 137 of 1000 
+Permutation 138 of 1000 
+Permutation 139 of 1000 
+Permutation 140 of 1000 
+Permutation 141 of 1000 
+Permutation 142 of 1000 
+Permutation 143 of 1000 
+Permutation 144 of 1000 
+Permutation 145 of 1000 
+Permutation 146 of 1000 
+Permutation 147 of 1000 
+Permutation 148 of 1000 
+Permutation 149 of 1000 
+Permutation 150 of 1000 
+Permutation 151 of 1000 
+Permutation 152 of 1000 
+Permutation 153 of 1000 
+Permutation 154 of 1000 
+Permutation 155 of 1000 
+Permutation 156 of 1000 
+Permutation 157 of 1000 
+Permutation 158 of 1000 
+Permutation 159 of 1000 
+Permutation 160 of 1000 
+Permutation 161 of 1000 
+Permutation 162 of 1000 
+Permutation 163 of 1000 
+Permutation 164 of 1000 
+Permutation 165 of 1000 
+Permutation 166 of 1000 
+Permutation 167 of 1000 
+Permutation 168 of 1000 
+Permutation 169 of 1000 
+Permutation 170 of 1000 
+Permutation 171 of 1000 
+Permutation 172 of 1000 
+Permutation 173 of 1000 
+Permutation 174 of 1000 
+Permutation 175 of 1000 
+Permutation 176 of 1000 
+Permutation 177 of 1000 
+Permutation 178 of 1000 
+Permutation 179 of 1000 
+Permutation 180 of 1000 
+Permutation 181 of 1000 
+Permutation 182 of 1000 
+Permutation 183 of 1000 
+Permutation 184 of 1000 
+Permutation 185 of 1000 
+Permutation 186 of 1000 
+Permutation 187 of 1000 
+Permutation 188 of 1000 
+Permutation 189 of 1000 
+Permutation 190 of 1000 
+Permutation 191 of 1000 
+Permutation 192 of 1000 
+Permutation 193 of 1000 
+Permutation 194 of 1000 
+Permutation 195 of 1000 
+Permutation 196 of 1000 
+Permutation 197 of 1000 
+Permutation 198 of 1000 
+Permutation 199 of 1000 
+Permutation 200 of 1000 
+Permutation 201 of 1000 
+Permutation 202 of 1000 
+Permutation 203 of 1000 
+Permutation 204 of 1000 
+Permutation 205 of 1000 
+Permutation 206 of 1000 
+Permutation 207 of 1000 
+Permutation 208 of 1000 
+Permutation 209 of 1000 
+Permutation 210 of 1000 
+Permutation 211 of 1000 
+Permutation 212 of 1000 
+Permutation 213 of 1000 
+Permutation 214 of 1000 
+Permutation 215 of 1000 
+Permutation 216 of 1000 
+Permutation 217 of 1000 
+Permutation 218 of 1000 
+Permutation 219 of 1000 
+Permutation 220 of 1000 
+Permutation 221 of 1000 
+Permutation 222 of 1000 
+Permutation 223 of 1000 
+Permutation 224 of 1000 
+Permutation 225 of 1000 
+Permutation 226 of 1000 
+Permutation 227 of 1000 
+Permutation 228 of 1000 
+Permutation 229 of 1000 
+Permutation 230 of 1000 
+Permutation 231 of 1000 
+Permutation 232 of 1000 
+Permutation 233 of 1000 
+Permutation 234 of 1000 
+Permutation 235 of 1000 
+Permutation 236 of 1000 
+Permutation 237 of 1000 
+Permutation 238 of 1000 
+Permutation 239 of 1000 
+Permutation 240 of 1000 
+Permutation 241 of 1000 
+Permutation 242 of 1000 
+Permutation 243 of 1000 
+Permutation 244 of 1000 
+Permutation 245 of 1000 
+Permutation 246 of 1000 
+Permutation 247 of 1000 
+Permutation 248 of 1000 
+Permutation 249 of 1000 
+Permutation 250 of 1000 
+Permutation 251 of 1000 
+Permutation 252 of 1000 
+Permutation 253 of 1000 
+Permutation 254 of 1000 
+Permutation 255 of 1000 
+Permutation 256 of 1000 
+Permutation 257 of 1000 
+Permutation 258 of 1000 
+Permutation 259 of 1000 
+Permutation 260 of 1000 
+Permutation 261 of 1000 
+Permutation 262 of 1000 
+Permutation 263 of 1000 
+Permutation 264 of 1000 
+Permutation 265 of 1000 
+Permutation 266 of 1000 
+Permutation 267 of 1000 
+Permutation 268 of 1000 
+Permutation 269 of 1000 
+Permutation 270 of 1000 
+Permutation 271 of 1000 
+Permutation 272 of 1000 
+Permutation 273 of 1000 
+Permutation 274 of 1000 
+Permutation 275 of 1000 
+Permutation 276 of 1000 
+Permutation 277 of 1000 
+Permutation 278 of 1000 
+Permutation 279 of 1000 
+Permutation 280 of 1000 
+Permutation 281 of 1000 
+Permutation 282 of 1000 
+Permutation 283 of 1000 
+Permutation 284 of 1000 
+Permutation 285 of 1000 
+Permutation 286 of 1000 
+Permutation 287 of 1000 
+Permutation 288 of 1000 
+Permutation 289 of 1000 
+Permutation 290 of 1000 
+Permutation 291 of 1000 
+Permutation 292 of 1000 
+Permutation 293 of 1000 
+Permutation 294 of 1000 
+Permutation 295 of 1000 
+Permutation 296 of 1000 
+Permutation 297 of 1000 
+Permutation 298 of 1000 
+Permutation 299 of 1000 
+Permutation 300 of 1000 
+Permutation 301 of 1000 
+Permutation 302 of 1000 
+Permutation 303 of 1000 
+Permutation 304 of 1000 
+Permutation 305 of 1000 
+Permutation 306 of 1000 
+Permutation 307 of 1000 
+Permutation 308 of 1000 
+Permutation 309 of 1000 
+Permutation 310 of 1000 
+Permutation 311 of 1000 
+Permutation 312 of 1000 
+Permutation 313 of 1000 
+Permutation 314 of 1000 
+Permutation 315 of 1000 
+Permutation 316 of 1000 
+Permutation 317 of 1000 
+Permutation 318 of 1000 
+Permutation 319 of 1000 
+Permutation 320 of 1000 
+Permutation 321 of 1000 
+Permutation 322 of 1000 
+Permutation 323 of 1000 
+Permutation 324 of 1000 
+Permutation 325 of 1000 
+Permutation 326 of 1000 
+Permutation 327 of 1000 
+Permutation 328 of 1000 
+Permutation 329 of 1000 
+Permutation 330 of 1000 
+Permutation 331 of 1000 
+Permutation 332 of 1000 
+Permutation 333 of 1000 
+Permutation 334 of 1000 
+Permutation 335 of 1000 
+Permutation 336 of 1000 
+Permutation 337 of 1000 
+Permutation 338 of 1000 
+Permutation 339 of 1000 
+Permutation 340 of 1000 
+Permutation 341 of 1000 
+Permutation 342 of 1000 
+Permutation 343 of 1000 
+Permutation 344 of 1000 
+Permutation 345 of 1000 
+Permutation 346 of 1000 
+Permutation 347 of 1000 
+Permutation 348 of 1000 
+Permutation 349 of 1000 
+Permutation 350 of 1000 
+Permutation 351 of 1000 
+Permutation 352 of 1000 
+Permutation 353 of 1000 
+Permutation 354 of 1000 
+Permutation 355 of 1000 
+Permutation 356 of 1000 
+Permutation 357 of 1000 
+Permutation 358 of 1000 
+Permutation 359 of 1000 
+Permutation 360 of 1000 
+Permutation 361 of 1000 
+Permutation 362 of 1000 
+Permutation 363 of 1000 
+Permutation 364 of 1000 
+Permutation 365 of 1000 
+Permutation 366 of 1000 
+Permutation 367 of 1000 
+Permutation 368 of 1000 
+Permutation 369 of 1000 
+Permutation 370 of 1000 
+Permutation 371 of 1000 
+Permutation 372 of 1000 
+Permutation 373 of 1000 
+Permutation 374 of 1000 
+Permutation 375 of 1000 
+Permutation 376 of 1000 
+Permutation 377 of 1000 
+Permutation 378 of 1000 
+Permutation 379 of 1000 
+Permutation 380 of 1000 
+Permutation 381 of 1000 
+Permutation 382 of 1000 
+Permutation 383 of 1000 
+Permutation 384 of 1000 
+Permutation 385 of 1000 
+Permutation 386 of 1000 
+Permutation 387 of 1000 
+Permutation 388 of 1000 
+Permutation 389 of 1000 
+Permutation 390 of 1000 
+Permutation 391 of 1000 
+Permutation 392 of 1000 
+Permutation 393 of 1000 
+Permutation 394 of 1000 
+Permutation 395 of 1000 
+Permutation 396 of 1000 
+Permutation 397 of 1000 
+Permutation 398 of 1000 
+Permutation 399 of 1000 
+Permutation 400 of 1000 
+Permutation 401 of 1000 
+Permutation 402 of 1000 
+Permutation 403 of 1000 
+Permutation 404 of 1000 
+Permutation 405 of 1000 
+Permutation 406 of 1000 
+Permutation 407 of 1000 
+Permutation 408 of 1000 
+Permutation 409 of 1000 
+Permutation 410 of 1000 
+Permutation 411 of 1000 
+Permutation 412 of 1000 
+Permutation 413 of 1000 
+Permutation 414 of 1000 
+Permutation 415 of 1000 
+Permutation 416 of 1000 
+Permutation 417 of 1000 
+Permutation 418 of 1000 
+Permutation 419 of 1000 
+Permutation 420 of 1000 
+Permutation 421 of 1000 
+Permutation 422 of 1000 
+Permutation 423 of 1000 
+Permutation 424 of 1000 
+Permutation 425 of 1000 
+Permutation 426 of 1000 
+Permutation 427 of 1000 
+Permutation 428 of 1000 
+Permutation 429 of 1000 
+Permutation 430 of 1000 
+Permutation 431 of 1000 
+Permutation 432 of 1000 
+Permutation 433 of 1000 
+Permutation 434 of 1000 
+Permutation 435 of 1000 
+Permutation 436 of 1000 
+Permutation 437 of 1000 
+Permutation 438 of 1000 
+Permutation 439 of 1000 
+Permutation 440 of 1000 
+Permutation 441 of 1000 
+Permutation 442 of 1000 
+Permutation 443 of 1000 
+Permutation 444 of 1000 
+Permutation 445 of 1000 
+Permutation 446 of 1000 
+Permutation 447 of 1000 
+Permutation 448 of 1000 
+Permutation 449 of 1000 
+Permutation 450 of 1000 
+Permutation 451 of 1000 
+Permutation 452 of 1000 
+Permutation 453 of 1000 
+Permutation 454 of 1000 
+Permutation 455 of 1000 
+Permutation 456 of 1000 
+Permutation 457 of 1000 
+Permutation 458 of 1000 
+Permutation 459 of 1000 
+Permutation 460 of 1000 
+Permutation 461 of 1000 
+Permutation 462 of 1000 
+Permutation 463 of 1000 
+Permutation 464 of 1000 
+Permutation 465 of 1000 
+Permutation 466 of 1000 
+Permutation 467 of 1000 
+Permutation 468 of 1000 
+Permutation 469 of 1000 
+Permutation 470 of 1000 
+Permutation 471 of 1000 
+Permutation 472 of 1000 
+Permutation 473 of 1000 
+Permutation 474 of 1000 
+Permutation 475 of 1000 
+Permutation 476 of 1000 
+Permutation 477 of 1000 
+Permutation 478 of 1000 
+Permutation 479 of 1000 
+Permutation 480 of 1000 
+Permutation 481 of 1000 
+Permutation 482 of 1000 
+Permutation 483 of 1000 
+Permutation 484 of 1000 
+Permutation 485 of 1000 
+Permutation 486 of 1000 
+Permutation 487 of 1000 
+Permutation 488 of 1000 
+Permutation 489 of 1000 
+Permutation 490 of 1000 
+Permutation 491 of 1000 
+Permutation 492 of 1000 
+Permutation 493 of 1000 
+Permutation 494 of 1000 
+Permutation 495 of 1000 
+Permutation 496 of 1000 
+Permutation 497 of 1000 
+Permutation 498 of 1000 
+Permutation 499 of 1000 
+Permutation 500 of 1000 
+Permutation 501 of 1000 
+Permutation 502 of 1000 
+Permutation 503 of 1000 
+Permutation 504 of 1000 
+Permutation 505 of 1000 
+Permutation 506 of 1000 
+Permutation 507 of 1000 
+Permutation 508 of 1000 
+Permutation 509 of 1000 
+Permutation 510 of 1000 
+Permutation 511 of 1000 
+Permutation 512 of 1000 
+Permutation 513 of 1000 
+Permutation 514 of 1000 
+Permutation 515 of 1000 
+Permutation 516 of 1000 
+Permutation 517 of 1000 
+Permutation 518 of 1000 
+Permutation 519 of 1000 
+Permutation 520 of 1000 
+Permutation 521 of 1000 
+Permutation 522 of 1000 
+Permutation 523 of 1000 
+Permutation 524 of 1000 
+Permutation 525 of 1000 
+Permutation 526 of 1000 
+Permutation 527 of 1000 
+Permutation 528 of 1000 
+Permutation 529 of 1000 
+Permutation 530 of 1000 
+Permutation 531 of 1000 
+Permutation 532 of 1000 
+Permutation 533 of 1000 
+Permutation 534 of 1000 
+Permutation 535 of 1000 
+Permutation 536 of 1000 
+Permutation 537 of 1000 
+Permutation 538 of 1000 
+Permutation 539 of 1000 
+Permutation 540 of 1000 
+Permutation 541 of 1000 
+Permutation 542 of 1000 
+Permutation 543 of 1000 
+Permutation 544 of 1000 
+Permutation 545 of 1000 
+Permutation 546 of 1000 
+Permutation 547 of 1000 
+Permutation 548 of 1000 
+Permutation 549 of 1000 
+Permutation 550 of 1000 
+Permutation 551 of 1000 
+Permutation 552 of 1000 
+Permutation 553 of 1000 
+Permutation 554 of 1000 
+Permutation 555 of 1000 
+Permutation 556 of 1000 
+Permutation 557 of 1000 
+Permutation 558 of 1000 
+Permutation 559 of 1000 
+Permutation 560 of 1000 
+Permutation 561 of 1000 
+Permutation 562 of 1000 
+Permutation 563 of 1000 
+Permutation 564 of 1000 
+Permutation 565 of 1000 
+Permutation 566 of 1000 
+Permutation 567 of 1000 
+Permutation 568 of 1000 
+Permutation 569 of 1000 
+Permutation 570 of 1000 
+Permutation 571 of 1000 
+Permutation 572 of 1000 
+Permutation 573 of 1000 
+Permutation 574 of 1000 
+Permutation 575 of 1000 
+Permutation 576 of 1000 
+Permutation 577 of 1000 
+Permutation 578 of 1000 
+Permutation 579 of 1000 
+Permutation 580 of 1000 
+Permutation 581 of 1000 
+Permutation 582 of 1000 
+Permutation 583 of 1000 
+Permutation 584 of 1000 
+Permutation 585 of 1000 
+Permutation 586 of 1000 
+Permutation 587 of 1000 
+Permutation 588 of 1000 
+Permutation 589 of 1000 
+Permutation 590 of 1000 
+Permutation 591 of 1000 
+Permutation 592 of 1000 
+Permutation 593 of 1000 
+Permutation 594 of 1000 
+Permutation 595 of 1000 
+Permutation 596 of 1000 
+Permutation 597 of 1000 
+Permutation 598 of 1000 
+Permutation 599 of 1000 
+Permutation 600 of 1000 
+Permutation 601 of 1000 
+Permutation 602 of 1000 
+Permutation 603 of 1000 
+Permutation 604 of 1000 
+Permutation 605 of 1000 
+Permutation 606 of 1000 
+Permutation 607 of 1000 
+Permutation 608 of 1000 
+Permutation 609 of 1000 
+Permutation 610 of 1000 
+Permutation 611 of 1000 
+Permutation 612 of 1000 
+Permutation 613 of 1000 
+Permutation 614 of 1000 
+Permutation 615 of 1000 
+Permutation 616 of 1000 
+Permutation 617 of 1000 
+Permutation 618 of 1000 
+Permutation 619 of 1000 
+Permutation 620 of 1000 
+Permutation 621 of 1000 
+Permutation 622 of 1000 
+Permutation 623 of 1000 
+Permutation 624 of 1000 
+Permutation 625 of 1000 
+Permutation 626 of 1000 
+Permutation 627 of 1000 
+Permutation 628 of 1000 
+Permutation 629 of 1000 
+Permutation 630 of 1000 
+Permutation 631 of 1000 
+Permutation 632 of 1000 
+Permutation 633 of 1000 
+Permutation 634 of 1000 
+Permutation 635 of 1000 
+Permutation 636 of 1000 
+Permutation 637 of 1000 
+Permutation 638 of 1000 
+Permutation 639 of 1000 
+Permutation 640 of 1000 
+Permutation 641 of 1000 
+Permutation 642 of 1000 
+Permutation 643 of 1000 
+Permutation 644 of 1000 
+Permutation 645 of 1000 
+Permutation 646 of 1000 
+Permutation 647 of 1000 
+Permutation 648 of 1000 
+Permutation 649 of 1000 
+Permutation 650 of 1000 
+Permutation 651 of 1000 
+Permutation 652 of 1000 
+Permutation 653 of 1000 
+Permutation 654 of 1000 
+Permutation 655 of 1000 
+Permutation 656 of 1000 
+Permutation 657 of 1000 
+Permutation 658 of 1000 
+Permutation 659 of 1000 
+Permutation 660 of 1000 
+Permutation 661 of 1000 
+Permutation 662 of 1000 
+Permutation 663 of 1000 
+Permutation 664 of 1000 
+Permutation 665 of 1000 
+Permutation 666 of 1000 
+Permutation 667 of 1000 
+Permutation 668 of 1000 
+Permutation 669 of 1000 
+Permutation 670 of 1000 
+Permutation 671 of 1000 
+Permutation 672 of 1000 
+Permutation 673 of 1000 
+Permutation 674 of 1000 
+Permutation 675 of 1000 
+Permutation 676 of 1000 
+Permutation 677 of 1000 
+Permutation 678 of 1000 
+Permutation 679 of 1000 
+Permutation 680 of 1000 
+Permutation 681 of 1000 
+Permutation 682 of 1000 
+Permutation 683 of 1000 
+Permutation 684 of 1000 
+Permutation 685 of 1000 
+Permutation 686 of 1000 
+Permutation 687 of 1000 
+Permutation 688 of 1000 
+Permutation 689 of 1000 
+Permutation 690 of 1000 
+Permutation 691 of 1000 
+Permutation 692 of 1000 
+Permutation 693 of 1000 
+Permutation 694 of 1000 
+Permutation 695 of 1000 
+Permutation 696 of 1000 
+Permutation 697 of 1000 
+Permutation 698 of 1000 
+Permutation 699 of 1000 
+Permutation 700 of 1000 
+Permutation 701 of 1000 
+Permutation 702 of 1000 
+Permutation 703 of 1000 
+Permutation 704 of 1000 
+Permutation 705 of 1000 
+Permutation 706 of 1000 
+Permutation 707 of 1000 
+Permutation 708 of 1000 
+Permutation 709 of 1000 
+Permutation 710 of 1000 
+Permutation 711 of 1000 
+Permutation 712 of 1000 
+Permutation 713 of 1000 
+Permutation 714 of 1000 
+Permutation 715 of 1000 
+Permutation 716 of 1000 
+Permutation 717 of 1000 
+Permutation 718 of 1000 
+Permutation 719 of 1000 
+Permutation 720 of 1000 
+Permutation 721 of 1000 
+Permutation 722 of 1000 
+Permutation 723 of 1000 
+Permutation 724 of 1000 
+Permutation 725 of 1000 
+Permutation 726 of 1000 
+Permutation 727 of 1000 
+Permutation 728 of 1000 
+Permutation 729 of 1000 
+Permutation 730 of 1000 
+Permutation 731 of 1000 
+Permutation 732 of 1000 
+Permutation 733 of 1000 
+Permutation 734 of 1000 
+Permutation 735 of 1000 
+Permutation 736 of 1000 
+Permutation 737 of 1000 
+Permutation 738 of 1000 
+Permutation 739 of 1000 
+Permutation 740 of 1000 
+Permutation 741 of 1000 
+Permutation 742 of 1000 
+Permutation 743 of 1000 
+Permutation 744 of 1000 
+Permutation 745 of 1000 
+Permutation 746 of 1000 
+Permutation 747 of 1000 
+Permutation 748 of 1000 
+Permutation 749 of 1000 
+Permutation 750 of 1000 
+Permutation 751 of 1000 
+Permutation 752 of 1000 
+Permutation 753 of 1000 
+Permutation 754 of 1000 
+Permutation 755 of 1000 
+Permutation 756 of 1000 
+Permutation 757 of 1000 
+Permutation 758 of 1000 
+Permutation 759 of 1000 
+Permutation 760 of 1000 
+Permutation 761 of 1000 
+Permutation 762 of 1000 
+Permutation 763 of 1000 
+Permutation 764 of 1000 
+Permutation 765 of 1000 
+Permutation 766 of 1000 
+Permutation 767 of 1000 
+Permutation 768 of 1000 
+Permutation 769 of 1000 
+Permutation 770 of 1000 
+Permutation 771 of 1000 
+Permutation 772 of 1000 
+Permutation 773 of 1000 
+Permutation 774 of 1000 
+Permutation 775 of 1000 
+Permutation 776 of 1000 
+Permutation 777 of 1000 
+Permutation 778 of 1000 
+Permutation 779 of 1000 
+Permutation 780 of 1000 
+Permutation 781 of 1000 
+Permutation 782 of 1000 
+Permutation 783 of 1000 
+Permutation 784 of 1000 
+Permutation 785 of 1000 
+Permutation 786 of 1000 
+Permutation 787 of 1000 
+Permutation 788 of 1000 
+Permutation 789 of 1000 
+Permutation 790 of 1000 
+Permutation 791 of 1000 
+Permutation 792 of 1000 
+Permutation 793 of 1000 
+Permutation 794 of 1000 
+Permutation 795 of 1000 
+Permutation 796 of 1000 
+Permutation 797 of 1000 
+Permutation 798 of 1000 
+Permutation 799 of 1000 
+Permutation 800 of 1000 
+Permutation 801 of 1000 
+Permutation 802 of 1000 
+Permutation 803 of 1000 
+Permutation 804 of 1000 
+Permutation 805 of 1000 
+Permutation 806 of 1000 
+Permutation 807 of 1000 
+Permutation 808 of 1000 
+Permutation 809 of 1000 
+Permutation 810 of 1000 
+Permutation 811 of 1000 
+Permutation 812 of 1000 
+Permutation 813 of 1000 
+Permutation 814 of 1000 
+Permutation 815 of 1000 
+Permutation 816 of 1000 
+Permutation 817 of 1000 
+Permutation 818 of 1000 
+Permutation 819 of 1000 
+Permutation 820 of 1000 
+Permutation 821 of 1000 
+Permutation 822 of 1000 
+Permutation 823 of 1000 
+Permutation 824 of 1000 
+Permutation 825 of 1000 
+Permutation 826 of 1000 
+Permutation 827 of 1000 
+Permutation 828 of 1000 
+Permutation 829 of 1000 
+Permutation 830 of 1000 
+Permutation 831 of 1000 
+Permutation 832 of 1000 
+Permutation 833 of 1000 
+Permutation 834 of 1000 
+Permutation 835 of 1000 
+Permutation 836 of 1000 
+Permutation 837 of 1000 
+Permutation 838 of 1000 
+Permutation 839 of 1000 
+Permutation 840 of 1000 
+Permutation 841 of 1000 
+Permutation 842 of 1000 
+Permutation 843 of 1000 
+Permutation 844 of 1000 
+Permutation 845 of 1000 
+Permutation 846 of 1000 
+Permutation 847 of 1000 
+Permutation 848 of 1000 
+Permutation 849 of 1000 
+Permutation 850 of 1000 
+Permutation 851 of 1000 
+Permutation 852 of 1000 
+Permutation 853 of 1000 
+Permutation 854 of 1000 
+Permutation 855 of 1000 
+Permutation 856 of 1000 
+Permutation 857 of 1000 
+Permutation 858 of 1000 
+Permutation 859 of 1000 
+Permutation 860 of 1000 
+Permutation 861 of 1000 
+Permutation 862 of 1000 
+Permutation 863 of 1000 
+Permutation 864 of 1000 
+Permutation 865 of 1000 
+Permutation 866 of 1000 
+Permutation 867 of 1000 
+Permutation 868 of 1000 
+Permutation 869 of 1000 
+Permutation 870 of 1000 
+Permutation 871 of 1000 
+Permutation 872 of 1000 
+Permutation 873 of 1000 
+Permutation 874 of 1000 
+Permutation 875 of 1000 
+Permutation 876 of 1000 
+Permutation 877 of 1000 
+Permutation 878 of 1000 
+Permutation 879 of 1000 
+Permutation 880 of 1000 
+Permutation 881 of 1000 
+Permutation 882 of 1000 
+Permutation 883 of 1000 
+Permutation 884 of 1000 
+Permutation 885 of 1000 
+Permutation 886 of 1000 
+Permutation 887 of 1000 
+Permutation 888 of 1000 
+Permutation 889 of 1000 
+Permutation 890 of 1000 
+Permutation 891 of 1000 
+Permutation 892 of 1000 
+Permutation 893 of 1000 
+Permutation 894 of 1000 
+Permutation 895 of 1000 
+Permutation 896 of 1000 
+Permutation 897 of 1000 
+Permutation 898 of 1000 
+Permutation 899 of 1000 
+Permutation 900 of 1000 
+Permutation 901 of 1000 
+Permutation 902 of 1000 
+Permutation 903 of 1000 
+Permutation 904 of 1000 
+Permutation 905 of 1000 
+Permutation 906 of 1000 
+Permutation 907 of 1000 
+Permutation 908 of 1000 
+Permutation 909 of 1000 
+Permutation 910 of 1000 
+Permutation 911 of 1000 
+Permutation 912 of 1000 
+Permutation 913 of 1000 
+Permutation 914 of 1000 
+Permutation 915 of 1000 
+Permutation 916 of 1000 
+Permutation 917 of 1000 
+Permutation 918 of 1000 
+Permutation 919 of 1000 
+Permutation 920 of 1000 
+Permutation 921 of 1000 
+Permutation 922 of 1000 
+Permutation 923 of 1000 
+Permutation 924 of 1000 
+Permutation 925 of 1000 
+Permutation 926 of 1000 
+Permutation 927 of 1000 
+Permutation 928 of 1000 
+Permutation 929 of 1000 
+Permutation 930 of 1000 
+Permutation 931 of 1000 
+Permutation 932 of 1000 
+Permutation 933 of 1000 
+Permutation 934 of 1000 
+Permutation 935 of 1000 
+Permutation 936 of 1000 
+Permutation 937 of 1000 
+Permutation 938 of 1000 
+Permutation 939 of 1000 
+Permutation 940 of 1000 
+Permutation 941 of 1000 
+Permutation 942 of 1000 
+Permutation 943 of 1000 
+Permutation 944 of 1000 
+Permutation 945 of 1000 
+Permutation 946 of 1000 
+Permutation 947 of 1000 
+Permutation 948 of 1000 
+Permutation 949 of 1000 
+Permutation 950 of 1000 
+Permutation 951 of 1000 
+Permutation 952 of 1000 
+Permutation 953 of 1000 
+Permutation 954 of 1000 
+Permutation 955 of 1000 
+Permutation 956 of 1000 
+Permutation 957 of 1000 
+Permutation 958 of 1000 
+Permutation 959 of 1000 
+Permutation 960 of 1000 
+Permutation 961 of 1000 
+Permutation 962 of 1000 
+Permutation 963 of 1000 
+Permutation 964 of 1000 
+Permutation 965 of 1000 
+Permutation 966 of 1000 
+Permutation 967 of 1000 
+Permutation 968 of 1000 
+Permutation 969 of 1000 
+Permutation 970 of 1000 
+Permutation 971 of 1000 
+Permutation 972 of 1000 
+Permutation 973 of 1000 
+Permutation 974 of 1000 
+Permutation 975 of 1000 
+Permutation 976 of 1000 
+Permutation 977 of 1000 
+Permutation 978 of 1000 
+Permutation 979 of 1000 
+Permutation 980 of 1000 
+Permutation 981 of 1000 
+Permutation 982 of 1000 
+Permutation 983 of 1000 
+Permutation 984 of 1000 
+Permutation 985 of 1000 
+Permutation 986 of 1000 
+Permutation 987 of 1000 
+Permutation 988 of 1000 
+Permutation 989 of 1000 
+Permutation 990 of 1000 
+Permutation 991 of 1000 
+Permutation 992 of 1000 
+Permutation 993 of 1000 
+Permutation 994 of 1000 
+Permutation 995 of 1000 
+Permutation 996 of 1000 
+Permutation 997 of 1000 
+Permutation 998 of 1000 
+Permutation 999 of 1000 
+Permutation 1000 of 1000 
+
+Permutation-test summary:
+  observed_mean_balanced_accuracy permutation_mean permutation_sd
+1                       0.9296296        0.3323333      0.1030003
+  permutation_p_value n_permutations
+1         0.000999001           1000
+
+Leakage-safe validation complete.
